@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
-
 let loop = false;
 let startTime = new Date().getTime();
 let frameTime = 1 / 200;
