@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+h1,
+h2 {
+  font-family: Lato;
+}
+.keySelector {
+  min-height: 2em;
+  border-color: black;
+  flex-grow: 1;
+}
+.keySelector:hover {
+  background-color: lightgray;
+}
+.setting-row {
+  display: flex;
+}
+.practice-area {
+  height: 100vh;
+}
