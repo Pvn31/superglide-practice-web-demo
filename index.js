@@ -61,6 +61,7 @@ function keyListener(e) {
 }
 function mouseListener(e) {
   console.log(e);
+
   switch (e.button) {
     case 0:
       e.target.textContent = 'Left Click';
@@ -70,6 +71,14 @@ function mouseListener(e) {
       break;
     case 2:
       e.target.textContent = 'Right Click';
+      break;
+    case 3:
+      e.target.textContent = 'Right Click';
+      sleep(10000);
+      break;
+    case 4:
+      e.target.textContent = 'Right Click';
+      sleep(10000);
       break;
     default:
       e.target.textContent = `Unknown mouse button code: ${e.button}`;
