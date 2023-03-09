@@ -73,11 +73,11 @@ function mouseListener(e) {
       e.target.textContent = 'Right Click';
       break;
     case 3:
-      e.target.textContent = 'Right Click';
+      e.target.textContent = 'Mouse 3';
       sleep(10000);
       break;
     case 4:
-      e.target.textContent = 'Right Click';
+      e.target.textContent = 'Mouse 4';
       sleep(10000);
       break;
     default:
